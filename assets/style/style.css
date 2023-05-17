@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menux main main main main main"
+    "footer footer footer footer footer footer";
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header {
+  grid-area: header;
+  background-color: rgb(247, 158, 172);
+  border: solid 1px lightsalmon;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.titulo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu {
+  grid-area: menux;
+  background-color:lightblue;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 20px;
+}
+.gatos {
+  display: flex;
+  justify-content: space-between;
+}
+.perro {
+  display: flex;
+  justify-content: space-between;
+}
+.exoticos {
+  display: flex;
+  justify-content: space-between;
+}
+.exoticos {
+  display: flex;
+  justify-content: space-between;
+}
+.farm {
+  display: flex;
+  justify-content: space-between;
+}
+.acce {
+  display: flex;
+  justify-content: space-between;
+}
+
+.farm {
+  display: flex;
+  justify-content: space-between;
+}
+.acce {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+ background-color: white;
+ grid-area: main;
+ display: grid;
+ grid-template-areas: 
+ "prod1 prod2 prod3"
+ "prod4 prod5 prod6";
+ gap: 20px;
+}
+img{
+  width: 20rem;
+  height: 20rem;
+}
+button{
+  background-color: rgb(247, 158, 172);
+  border: solid salmon 1px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  grid-area: footer;
+  background-color: rgb(247, 158, 172);
+  border: solid 1px lightsalmon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  gap: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.if{
+  display: flex;
+  gap: 10px;
+}
